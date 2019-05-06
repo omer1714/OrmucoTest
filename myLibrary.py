@@ -8,7 +8,7 @@
 #   Return 0 if v1 == v2
 #   Return -1 if v1 < v2
 
-def isUpdate(v1, v2):
+def compare(v1, v2):
     a = v1.split(".")       #   This splits it into string elements eg 1.2.3 to 3 and 1.2 to 2 elements
     b = v2.split(".")
 
